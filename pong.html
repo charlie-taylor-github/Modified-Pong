@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- CSS only -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="pong.css">
+        
+    </head>
+    <body>
+        <div class="hl hl-1">
+            <h1>Pong!</h1>
+        </div>
+
+        <div class="grid">
+            <div id="game" class="hl-2">
+                <p><canvas id="canvas1"></canvas></p>
+            </div>
+            
+            <div id="menu" class="hl-2">
+                <h3>Controls</h3>   
+                <p>Player 1: W and S</p>
+                <p>Player 2: Up and Down</p>
+                <p>Press SPACE to Pause</p>
+
+                <p><button id="reset-btn" class="btn btn-outline-light">Reset Game</button></p>
+                <h3>Ball Speed</h3>
+                <input type="range" class="form-range" id="ball-speed-range">
+                <h3>Player Speed</h3>
+                <input type="range" class="form-range" id="player-speed-range">
+                <h3>Number of Balls</h3>
+                <input type="range" class="form-range" id="ball-no-range", min="0", max="4", step="1">
+            </div>
+        </div>
+        
+
+
+
+        <!-- JavaScript Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="main.js" async defer></script>
+    </body>
+</html>

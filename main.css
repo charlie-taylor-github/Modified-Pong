@@ -1,0 +1,35 @@
+body {
+    background-color: #F0EBE3;
+    overflow-x: hidden;
+}
+
+.hl-2 {
+    background-color: #576F72;
+}
+
+.hl-1 {
+    background-color: #7D9D9C;
+}
+
+.hl {
+    padding: 5%;
+}
+
+.main-title {
+    text-align: center;
+    color: white;
+    font-size: 10vw;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 5vw;
+}
+
+#home-btn {
+    position: absolute;
+    width: 10vh;
+    top: 1vh;
+    left: 1vh;
+}

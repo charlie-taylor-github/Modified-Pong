@@ -1,0 +1,63 @@
+body {
+    box-sizing: border-box;
+    overflow-y: hidden;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#canvas1 {
+    position: relative;
+    max-width: 100%;
+    max-height: 100%;
+    background-color: black;
+}
+
+#ball-speed-slider {
+    width: 50%;
+}
+
+#red::-webkit-slider-thumb {
+    background-color: #fff;
+  }
+
+section {
+    background-color: white;
+}
+
+.hl {
+    padding: 2%;
+}
+
+.title {
+    text-align: center;
+    font-size: 10vh;
+}
+
+.grid {
+    margin-top: 1%;;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    transform: scale(0.9);
+}
+
+#game, #menu {
+    padding: 3%;
+    width: 45vw;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: #7D9D9C;
+}
+
+p {
+    text-align: center;
+    color: white;
+}
+
+h3 {
+    text-align: center;
+    color: white;
+}
